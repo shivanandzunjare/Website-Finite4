@@ -567,11 +567,13 @@ ul{
         width: auto;
         display: block;
         margin-left: -40px;
+        padding-bottom: 10px;
     }
 
     .contentInd{
         width: auto;
         height: auto;
+        background-color:#eee;
     }
     .contentDiv{
 
