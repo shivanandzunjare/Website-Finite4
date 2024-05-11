@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script>
+        // JavaScript code goes here
+        // Define a function to check if a number is even or odd
+        function checkEvenOrOdd(number) {
+            if (number % 2 === 0) {
+                return "Even";
+            } else {
+                return "Odd";
+            }
+        }
+
+        // Define a function to calculate the factorial of a number
+        function calculateFactorial(number) {
+            let factorial = 1;
+            for (let i = 1; i <= number; i++) {
+                factorial *= i;
+            }
+            return factorial;
+        }
+
+        // Function to run the program
+        function runProgram() {
+            const numberToCheck = 5;
+
+            // Test the functions with some sample inputs
+            const evenOrOddResult = checkEvenOrOdd(numberToCheck);
+            const factorialResult = calculateFactorial(numberToCheck);
+
+            // Output the results to the webpage
+            document.getElementById("output").innerHTML = 
+                "Is " + numberToCheck + " even or odd? " + evenOrOddResult + "<br>" +
+                "Factorial of " + numberToCheck + ": " + factorialResult;
+        }
+
+        // Call the runProgram function to execute the program
+        runProgram();
+    </script>
+</head>
+<body>
+    <h1></h1>
+    <div id="output"></div>
+</body>
+</html>

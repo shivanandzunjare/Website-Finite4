@@ -1,0 +1,1244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title></title>
+    <link rel="stylesheet" href="Business.css">
+</head>
+<body>
+    
+        <div class="words">
+            <ul>
+              <li>Media</li>
+              <li>Contact Us</li>
+              <li>Investors</li>
+              <li>Group Websites</li>
+            </ul>
+          </div>
+      
+          <div class="logo">
+            <img src="logo (2).png" width="200px" height="70px">
+          </div>
+      
+      
+      <div class="topnav" id="myTopnav">
+      
+        <a href="index.html" class="hactive">Home</a>
+        
+        <div class="dropdown">
+          <button class="dropbtn">About Us 
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Overview</a>
+            <a href="#">Leadership</a>
+            <a href="#">Technology For Growth</a>
+          </div>
+        </div> 
+      
+        <a href="Business.html">Our Businesses</a>
+        <a href="#">Product And Services</a>
+      
+        <div class="dropdown">
+          <button class="dropbtn">Careers 
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Overview</a>
+            <a href="#">Current Openings</a>
+            <a href="#">Campus Recruitment</a>
+          </div>
+        </div>
+        
+        <div class="search-container" id="searchContainer">
+          <input type="text" placeholder="Search..." id="searchInput">
+          <button type="submit" onclick="toggleSearch()"><i class="fa fa-search"></i></button>
+        </div>
+      
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+      
+      
+      <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      
+      function toggleSearch() {
+        var searchInput = document.getElementById("searchInput");
+        if (searchInput.style.display === "none") {
+          searchInput.style.display = "block";
+        } else {
+          searchInput.style.display = "none";
+        }
+      }
+      </script>
+
+
+         <!-- main body of page -->
+
+     <div class="row mainsection">
+
+                              <!-- this is for title only -->
+       <div class="row collapse pageTitle">
+          <div class="rowContent">
+              <h1 >Our Businesses</h1>
+           </div>
+       </div>
+
+                                         <!--  main content of page -->
+       
+          <div class="rowContent business">
+              <p id="info"> Finite4 leads in nearly every sphere of business it operates in, across various industries. Explore our offerings by industry or by business
+
+              </p>
+            
+              
+               <ul class="grid-container-main">
+                    <div id="firstdiv" style="background-color: #2196F3;" >
+                        <a title="all services"  class="grid-item" href='#?'>Business </a>
+                    </div>
+                    <div id="secdiv" >
+                        <a title="Industry" class="grid-item" href='#?'>Industry</a>
+                    </div>
+                </ul>
+                  
+                                                <!-- business div started -->
+                <div class="grid-container business" style="display: grid;">
+                    <div class="image-container">
+                                  <img src="/hydrocarbon_enginerring.jpg" alt="hydrocarbon" class="image">
+                                  <div class="overlay">
+                                     <h2>Hydrocarbon</h2>
+                                     <div class="content">
+                                        <p></p>
+                                    
+                                         <p class="span">
+                                            <span > 
+                                                Finite4 offers integrated ‘design-to-build’ solutions for complex onshore and offshore hydrocarbon projects across multiple geographies. Its track record includes simultaneous execution of multiple, complex, large-value projects, meeting stringent delivery schedules, quality and safety norms.
+
+                                            </span>
+                                         </p>
+                                         
+                                     </div>
+                                  </div>
+                    </div>  
+                               
+
+                    <div class="image-container">
+                               <img src="/power.jpg" alt="Power" class="image">
+                               <div class="overlay">
+                                    <h2>Power</h2>
+                                    <div class="content">
+                                        <p></p>
+                                        <p class="span">
+                                            <span>
+                                                Finite4 executes power projects – coal, gas-based, nuclear, hydro, solar, power transmission and distribution – and supplies power-plant equipment.
+                                            </span>
+                                        </p>
+                                        <p></p>
+                                        
+
+                                    </div>
+                                </div>
+                    </div>
+
+                    <div class="image-container">
+                                   <img src="/defence.jpg" class="image">
+                                  <div class="overlay">
+                                      <h2>Defence Engineering</h2>
+                                      <div class="content">
+                                          <p></p>
+                                          <p class="span">
+                                            <span>
+                                                Finite4 provides comprehensive indigenous, design-to-realisation solutions including Delivery & Engineering Systems, associated Sensors & Auxiliaries, and Platforms (for deployment on land and at sea). We deliver multi-disciplinary equipment, fully integrated platforms, and autonomous systems...
+
+                                            </span>
+                                          </p>
+                                          <p></p>
+                                      </div>
+                                   </div>
+                    </div>
+                            
+                    <div class="image-container">
+                                  <img src="/green-energy-our-businesses.jpg" class="image">
+                                  <div class="overlay">
+                                        <h2>GreenTech</h2>
+                                         <div class="content">
+                                             <p></p>
+                                             <p class="span">
+                                                <span> Finite4 Green Manufacturing and Development business is at the forefront of the global shift towards a greener future. The business encompasses the Green Energy Value Chain – Development, Manufacturing and EPC.
+                                                </span>
+                                             </p>
+                                             <p></p>
+                                        
+                                         </div>
+                                    </div>
+                                </div>
+                            
+
+                                <div class="image-container">
+                                 <img src="/lt_valves.jpg" class="image">
+                                 <div class="overlay">
+                                    <h2>Valves</h2>
+                                    <div class="content">
+                                        <p></p>
+                                        <p class="span">
+                                            <span>Finite4 Valves is a leader in flow-control solutions for critical services. The business has a marketing network that spans the globe and is reinforced through strategic alliances with international distributors.
+
+                                            </span>
+                                        </p>
+                                        <p></p>
+                                    
+                                    </div>
+                                  </div>
+                                </div>
+                            
+
+                                <div class="image-container">
+                                  <img src="/lt_technologyservices.jpg"class="image">
+                                  <div class="overlay">
+                                    <h2>Technology Services</h2>
+                                    <div class="content">
+                                        <p></p>
+                                        <p class="span">
+                                         <span>
+                                            Finite4 Technology Services offers design and development solutions through the entire development chain in multiple industries. The Company has design and delivery locations in six centres in India, as well as two delivery centres in the US.
+                                         </span>
+                                        </p>
+                                        <p></p>
+
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="image-container">
+                               <img src="/metallurgical__material_handling.jpg"class="image">
+                               <div class="overlay">
+                                 <h2>Metals</h2>
+                                 <div class="content">
+                                     <p></p>
+                                     <p class="span">
+                                        <span>
+                                            Finite4 is a leading EPC solutions provider in the fields of minerals, metals and bulk material handling for large industrial, steel, aluminium, copper and zinc complexes, associated facilities and the mining industry. It offers integrated solutions for a wide range of systems and equipment, powered by in-house design, engineering, manufacturing, construction and commissioning capabilities.
+                                        </span>
+                                   
+                                     </p>
+                                     <p></p>
+                                    
+                                 </div>
+                               </div>
+                            </div>
+                        
+                            <div class="image-container">
+                               <img src="/Defence-shipbuilding.jpg"class="image">
+                               <div class="overlay">
+                                 <h2>Defence-shipbuilding</h2>
+                                 <div class="content">
+                                     <p></p>
+                                     <p class="span">
+                                     <span>
+                                        Finite4 offers a range of ocean-going vessels for defence including frontline warships, submarines, auxiliary vessels and special naval platforms. Finite4 Warship Design Centre, equipped with state-of-the-art software and associated tools, undertakes high-end design – from concept to production drawings.
+                                     </span>
+                                   
+                                     </p>
+                                     <p></p>
+                                 </div>
+                               </div>
+                            </div>
+
+                            <div class="image-container">
+                               <img src="/heavy_engineering.jpg"class="image">
+                               <div class="overlay">
+                                 <h2>Heavy-engineering</h2>
+                                 <div class="content">
+                                     <p></p>
+                                     <p class="span">
+                                        <span>
+                                            Finite4 Heavy Engineering manufactures and supplies custom designed equipment & critical piping to process industries such as fertilizer, chemical, refinery, petrochemical, and oil & gas, as well as to sectors such as thermal & nuclear power and aerospace.
+                                        </span>
+                                     </p>
+                                     <p></p>
+                                    
+                                 </div>
+                               </div>
+                           </div>                   
+                  </div>
+                                             <!-- Business Div Ended -->
+
+                 
+                                             <!-- Industry Div started -->
+                  
+                  <div class="tabsContent columnGrid industryList" style="display: none; "  >
+                                                                                            
+                       <ul>
+                           <li class="gridIndustry">
+                                <div class="contentInd">
+                                       <h2>Power</h2>
+                                       <div class="contentDiv">
+                                           <p>Integrated solutions, systems and equipment for the entire Power value chain. Design & engineering for power plant equipment.</p>
+                                           <ul>
+                                                <li>Coal & Gas Power Plants</li>
+                                                <li>Nuclear Power Plants</li>
+                                                <li>Renewable Energy </li>
+                                                <li> Power Transmission & Distribution</li>
+                                                <li> Turbines</li>
+                                                <li> Boilers</li>
+                                                <li>Plant Equipment</li>
+                                                
+                                           </ul>
+                                        </div>    
+                                </div>
+                                <div class="imgIndustry">
+                                       <img src="/power (1).jpg">
+                                </div>
+                           </li>
+                       </ul>
+
+                       <ul>
+                            <li class="gridIndustry">
+                                <div class="contentInd">
+                                    <h2>Hydrocarbon</h2>
+                                    <div class="contentDiv">
+                                        <p>
+                                            Serving the Oil & Gas sector across multiple geographies.</p>
+                                        <ul>
+                                            <li>Onshore</li>
+                                            <li>Offshore</li>
+                                            <li>Modular Fabrication</li>
+                                            <li>Construction Services</li>
+                                            <li>AdVENT</li>
+                                        </ul>
+                                    </div>
+                               </div>
+                               <div class="imgIndustry">
+                                    <img src="/hydrocarbon.jpg">
+                               </div>
+                           </li>
+                        </ul>
+
+
+                        <ul>
+                            <li class="gridIndustry">
+                                <div class="contentInd">
+                                    <h2>Process Industry</h2>
+                                    <div class="contentDiv">
+                                        <p>Custom designed equipment and systems for critical process industries, delivered to customers around the world.</p>
+                                        <ul>
+                                             <li> Process Plant Equipment</li>
+                                             <li>Minerals & Metals</li>
+                                             <li>Valves</li>
+                                             <li>Special Steels & Forgings</li>
+                                             <li>Critical Piping</li>
+                                             
+                                            
+                                        </ul>
+                                    </div>
+                               </div>
+                               <div class="imgIndustry">
+                                    <img src="/process_industry.jpg">
+                               </div>
+                           </li>
+                        </ul>
+
+
+                        <ul>
+                            <li class="gridIndustry">
+                                <div class="contentInd">
+                                    <h2>Defence</h2>
+                                    <div class="contentDiv">
+                                        <p>Solutions and systems for the defence sector, backed by a strong focus on R&D</p>
+                                        <ul>
+                                             <li>Shipbuilding</li>
+                                             <li>Defence Engineering</li>
+                                             <li>Aerospace</li>
+                                             
+                                        </ul>
+                                    </div>
+                               </div>
+                               <div class="imgIndustry">
+                                    <img src="/defence.jpg">
+                               </div>
+                           </li>
+                        </ul>
+
+ 
+
+                        <ul>
+                            <li class="gridIndustry"> 
+                                <div class="contentInd">
+                                    <h2>Information Technology</h2>
+                                    <div class="contentDiv">
+                                        <p> IT Solutions and services offered worldwide, through a network of offices.</p>
+                                        <ul>
+                                             <li>  LTIMindtree</li>
+                                             <li> L&T Technology Services</li>
+                                    
+                                        </ul>
+                                    </div>
+                               </div>
+                               <div class="imgIndustry">
+                                    <img src="/infra.jpg">
+                               </div>
+                           </li>
+                        </ul>
+
+                        <ul>
+                            <li class="gridIndustry" >
+                                <div class="contentInd">
+                                    <h2> Products, Systems & Equipment</h2>
+                                    <div class="contentDiv">
+                                        <p> A wide range of innovative products, equipment & systems for various industries </p>
+                                        <ul>
+                                            
+                                             <li> Valves</li>
+                                             <li> Construction & Mining Equipment</li>
+                                             <li> Rubber Processing Machinery</li>
+                                        </ul>
+                                    </div>
+                               </div>
+                               <div class="imgIndustry">
+                                    <img src="/construction-mining.jpg">
+                               </div>
+                           </li>
+                        </ul>
+
+                  </div>
+
+              </div>
+          </div>
+       </div>
+    </div>
+    <!-- Footer Ended -->
+ <footer>
+    <div class="footer-div">
+    <div class="about-us">
+    <h3><a>About Finite4</a></h3>
+    <hr>
+    <ul>
+      <li>Overview</li>
+      <li>Technology for Growth</li>
+      <li>Awards & Recognition</li>
+      <li>Leadership</li>
+      <li>Vision</li>
+      <li>Facilities</li>
+      <li>Corporate Policies</li>
+      <li>Video Gallery</li>
+      <li>Experience Centre - Pune</li>
+    </ul>
+    </div>
+  
+    <div class="about-us">
+      <h3><a>Sustainability</a></h3>
+      <hr>
+      <ul>
+        <li>Overview</li>
+        <li>Environment</li>
+        <li>Health & Safety</li>
+        <li>Community Engagement</li>
+        <li>Green Businesses</li>
+        <li>Sustainability Updates</li>
+        <li>Integrated Report</li>
+      </ul>
+      </div>
+  
+      <div class="about-us">
+        <h3><a>Careers</a></h3>
+        <hr>
+        <ul>
+          <li>Overview</li>
+          <li>Current Openings</li>
+          <li>Learning & Development</li>
+          <li>Diversity, Equity & Inclusion</li>
+          <li>Recruitment Caution</li>
+          <li>Campus Recruitment</li>
+          <li>Renew: Career Re-entry for Women</li>
+        </ul>
+        </div>
+  
+      <div class="contact">
+        <h3><a>Contact Us</a></h3>
+        <hr>
+      <p>First floor, Shinde Complex, Plot11, Shinde Nagar, Pashan-NDA
+         Road, Bavdhan, Pune-411021, Maharashtra, India</p>
+         <span>Tel: 9960249131</span>
+         <br>
+         <span>Send us al mail:</span>
+         <br>
+         <span> <a href="mailto:vishalpawar42000@gmail.com">vishalpawar42000@gmail.com</a></span>
+        </div>
+  
+      </div>
+  </footer>
+  
+
+    <script>
+        window.onload = function(){
+            document.getElementById('firstdiv').classList.add('active');
+
+        }
+ 
+            document.getElementById('firstdiv').addEventListener("click", ()=> {
+              document.getElementById('firstdiv').style.backgroundColor="#2196F3";
+              document.getElementById('secdiv').style.backgroundColor="white";
+              document.querySelector('.grid-container.business').style.display = 'grid';
+              document.querySelector('.industryList').style.display = 'none';
+              document.getElementById('firstdiv').classList.add('active');
+
+              document.getElementById('secdiv').classList.remove('active');
+           
+            })
+
+
+            document.getElementById("secdiv").addEventListener("click", ()=> {
+             document.getElementById('secdiv').style.backgroundColor="#2196F3";
+             document.getElementById('firstdiv').style.backgroundColor="white";
+             document.querySelector('.grid-container.business').style.display = 'none';
+             document.querySelector('.industryList').style.display = 'block';
+
+             document.getElementById('secdiv').classList.add('active');
+            // Remove 'active' class from the other div
+            document.getElementById('firstdiv').classList.remove('active');
+             })
+            
+ 
+    </script>
+
+  
+</body>
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+body{
+    margin: auto;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+  
+    
+}
+section{
+    max-width: 1360px;
+    margin: 0 auto;
+    /* position: relative; */
+    /* Add position relative */
+}
+.words {
+    display: flex;
+    margin-left: 800px;
+    font-weight: 700;
+}
+  
+.words ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .words li {
+    margin-left: 20px;
+    color: #888;
+    cursor: pointer;
+    /* Optional: Add spacing between list items */
+  }
+  
+  .words li:hover {
+    text-decoration: underline;
+  }
+  
+  .logo {
+    position: relative;
+    top: 0px;
+  }
+  
+  .logo img{
+    position: relative;
+      left: 170px;
+    align-content: center;
+  }
+  
+  /*  Header Started  */
+  
+  .topnav {
+    width: 100%;
+    overflow: hidden;
+    background-color: #024d87;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .hactive {
+    margin-left: 150px;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  .search-container {
+    float: right;
+    margin-right: 200px;
+    position: relative;
+  }
+  
+  .search-container input[type=text] {
+    display: none;
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    margin-right: 100px;
+    border: none;
+  }
+  
+  .search-container button {
+    padding: 5px 15px;
+    margin-top: 8px;
+    color: white;
+    right: 0; /* Positioning the button to the right */
+    background: #0370c0;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    position: absolute; /* Positioning the button absolutely */
+  }
+  
+  .search-container button:hover {
+    background: #024d87;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 17px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: #024d87;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: #0370c0;
+    color: white;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+    color: #024d87;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child), .dropdown .dropbtn {
+      display: none;
+    }
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+    .active {
+      margin-left: 0px;
+      color: white;
+    }
+    .search-container {
+      position: relative;
+      float: right;
+    }
+    .search-container input[type=text] {
+      width: 120px;
+      padding: 6px;
+      top: 50px;
+      position: absolute;
+      right: 0;
+      display: block;
+    }
+    .search-container button {
+      top: 50px;
+      position: absolute;
+      right: 120px;
+    }
+    .words {
+    display: none;
+  }
+    .logo{
+      left: 0;
+    }
+   .logo img{
+    left: 0px;
+   }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .topnav.responsive .dropdown {float: none;}
+    .topnav.responsive .dropdown-content {position: relative;}
+    .topnav.responsive .dropdown .dropbtn {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+      .words {
+    display: none;
+  }
+  }
+  
+  /*  Header Ended  */
+
+.mainsection{
+    margin: auto;
+    width: 1360px;
+    align-content: center;
+   
+}
+
+.row.collapse.pageTitle{
+    width: 1360px;
+    height: 110px;
+    padding-bottom: 25px;
+
+}
+.rowContent{
+    width: 960px;
+    height: 60px;
+    margin: 0  auto;
+    padding-left: 10px;
+    
+}
+
+h1{
+  
+    font-size: 50px;
+    margin-top: 25px;
+    font-weight: 20;
+    font-style: normal;
+
+}
+
+#info{
+    font-size: 18px;
+    height: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.rowContent.business{
+    width: 960px;
+   
+    margin-left: 190px;
+    padding-left: 10px;
+    
+}
+
+ul{
+    list-style: none;
+    
+}
+
+.grid-container-main{
+  position: relative;
+  margin-left: -40px;
+  width: 960px;
+    height: 63px;
+    display: grid;
+    grid-template-columns: auto auto ;
+    /* margin-left: -188px;  */
+}
+
+#firstdiv{
+    color: black;
+    width: 480px;
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+    height: 63px;
+    border-bottom: 3px solid #c6c6c6;
+}
+#secdiv{
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    color: black;
+   
+    height: 63px;
+    border-bottom: 3px solid #c6c6c6;
+    width: 480px; 
+}
+
+#firstdiv.active{
+    border-bottom: 3px solid #2196F3 ;
+}
+
+#firstdiv:hover {
+    border-bottom: 3px solid #2196F3 ;
+}
+
+#secdiv.active{
+    border-bottom: 3px solid #2196F3 ;
+}
+
+#secdiv:hover{
+    border-bottom: 3px solid #2196F3 ;
+}
+
+.grid-item{
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;  
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+
+
+/* CSS of business started */
+
+.image-container{
+    position: relative;
+    overflow: hidden;
+
+}
+
+.image-container .image{
+    display: block;
+    width: 470px;
+    height: 298.14px;
+}
+
+
+.overlay{
+    position: absolute;
+    color: white;
+
+    background-color: rgba( 0, 43, 75, .9);
+    overflow: hidden;
+    width: 470px;
+    min-height: 0;
+     transition: 1s ease; 
+     bottom: 0px;
+    max-height: 65px;
+    line-height: 30px; 
+
+    
+}
+
+.image-container {
+    width: 470px;
+}
+
+ h2{
+    
+    width: 470px;
+    margin-top: 20px;
+    color: white;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial,  sans-serif;
+
+}
+.span{
+    
+    font-family: Arial,  sans-serif;
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 65px 10px 0px 40px;
+}
+
+.image-container:hover .overlay{
+    
+    min-height: 300px ;
+
+}
+
+/* Here CSS of Industry started */
+
+.gridIndustry{
+    
+
+    display: grid;
+    grid-template-columns: auto auto ;
+    margin-left: -40px;
+
+}
+.contentInd{
+
+    width: 480px;
+    height: 430.16px;
+
+}
+
+.contentDiv{
+
+    width: 480px;
+    height: 359.16px;
+}
+
+.contentInd h2{
+    text-align: center;
+    color: rgb(23, 22, 22);
+    
+    justify-content: center;
+    width: 480px;
+    height: 51px;
+    font-size: 20px;
+    
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    
+}
+.contentInd p{
+    width: 397px;
+    height: 71px;
+    margin-left: 48px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.contentInd li{
+    padding-bottom: 10px;
+    margin-left: 48px;
+}
+
+.imgIndustry{
+    width: 480px;
+}
+
+
+.imgIndustry img{
+    width: 460px;
+    padding-right: 20px;
+}
+
+
+/* CSS for mobile view (up to 600px width) */
+
+
+
+
+@media screen and (max-width:600px) {
+    body{
+       
+        margin: 0 auto ;
+        
+    }
+    
+    .mainsection{
+        width: 100%;
+        
+    }
+    .row.collapse.pageTitle{
+        width: 100%;
+        padding-bottom: 10px;
+     
+       
+    }
+    .rowContent{
+        width: auto;
+     margin-left: 0px;
+     padding: 0px 10px 0px  10px;
+    
+    }
+
+ 
+    .rowContent.business{
+        width: auto;
+        height: auto;
+        margin-left: 0px;
+        padding-left: 0px 10px 0px 10px;
+     
+    }
+    #info{
+        height: auto;
+        
+    }
+   
+    .grid-container-main{
+        width: auto;
+        grid-template-columns: auto;
+        margin-left: -10px;
+        padding-bottom: 80px;
+       
+    }
+
+    #firstdiv{
+       
+        width: auto;
+        padding-top: 10px;
+        margin-left: -30px;
+    }
+    #secdiv{
+        width: auto;
+        margin-left: -30px;
+       
+    }
+
+    .grid-container {
+        display: block;
+        width: auto;
+        grid-template-columns: auto; 
+    }
+
+    .grid-container .business{
+        width: auto;
+    }
+ 
+    .image-container{
+        width: auto;
+        overflow: visible;
+       
+    }
+    .image-container .image{
+        width: 100%;
+        /
+       
+    }
+
+    .overlay{
+        
+        width: auto;
+        color: white;
+        background-color: rgba( 0, 43, 75, .9);
+        line-height: 35px; 
+        min-height: 310px;
+        position: inherit;
+
+     
+        
+    }
+    h2{
+        width: 100%;
+        color: white;
+        margin-left: 0px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        font-family: Arial,  sans-serif;
+    }
+
+    .span{
+        font-family: Arial,  sans-serif;
+        color: white;
+        font-size: 16px;
+        line-height: 22px;
+        margin: 70px 10px 0px 30px;   
+    } 
+
+
+
+    /* CSS media query for industry */
+ 
+    .gridIndustry{
+        width: auto;
+        display: block;
+        margin-left: -40px;
+    }
+
+    .contentInd{
+        width: auto;
+        height: auto;
+    }
+    .contentDiv{
+
+        width: auto;
+        height: auto;
+    }
+
+    .contentInd h2{
+
+      
+        text-align: center;
+       
+        justify-content: center;
+        width: auto;
+        height: auto;
+        font-size: 20px;
+        
+        margin-top: 0px;
+        margin-bottom: 0px;
+    
+        
+    }
+
+
+    .contentInd p{
+       
+        width: auto;
+        height: 71px;
+        margin-left: 10px;
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+    
+    .contentInd li{
+        
+        padding-bottom: 10px;
+        margin-left: 0px;
+    }
+    
+    .imgIndustry{
+        
+        width: auto;
+    }
+    
+    
+    .imgIndustry img{
+        width: 100%;
+        padding-right: 0px;
+    }
+
+
+}
+
+
+     /* footer started */
+footer{
+  /* position: absolute; */
+
+  text-align: center;
+
+  left: 0;
+  height: 400px;
+  background-color: #eee;
+  bottom: 0;
+}
+
+.footer-div{
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.about-us{
+  width: 30%;
+margin-left: 20px;
+  text-align: left;
+}
+
+.about-us h3{
+  color: black;
+  margin-top: 50px;
+  font-weight: 600;
+  line-height: 2px;
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.about-us h3:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.contact{
+  width: 30%;
+  margin-top: 11px;
+  margin-left: 50px;
+    text-align: left;
+}
+
+.contact h3{
+  margin-top: 40px;
+  line-height: 2px;
+}
+
+.about-us ul {
+  list-style-type: none; /* Remove bullet points */
+  line-height: 22px;
+}
+
+.about-us p{
+  word-wrap: break-word;
+}
+
+.about-us span a{
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+
+  footer{
+    height: 300px;
+  }
+
+  .footer-div{
+    display: flex;
+    width: 80%;
+    margin-left: 0px;
+  }
+
+.about-us {
+  display: none; /* Hide all sections except contact in mobile view */
+}
+.contact {
+  display: block; /* Display only contact section */
+  width: 91%; /* Set full width for contact section */
+  margin-top: 0px;
+  margin-left: 20px;
+    text-align: left;
+}
+}
+/* Footer Ended */
